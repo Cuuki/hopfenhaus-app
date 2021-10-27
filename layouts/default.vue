@@ -15,13 +15,7 @@
   </main>
 </template>
 
-<script lang="ts">
-import { defineComponent } from '@nuxtjs/composition-api'
+<script setup lang="ts">
 import AppHeader from '~/components/AppHeader/AppHeader.vue'
 import AppFooter from '~/components/AppFooter/AppFooter.vue'
-
-export default defineComponent({
-  name: 'DefaultLayout',
-  components: { AppHeader, AppFooter },
-})
 </script>

@@ -22,15 +22,8 @@
   </section>
 </template>
 
-<script lang="ts">
-import { defineComponent, ref } from '@nuxtjs/composition-api'
+<script setup lang="ts">
+import { ref } from '#app'
 
-export default defineComponent({
-  name: 'IndexPage',
-  setup() {
-    const title = ref<string>('hopfenhaus-app')
-
-    return { title }
-  },
-})
+const title = ref<string>('hopfenhaus-app')
 </script>
